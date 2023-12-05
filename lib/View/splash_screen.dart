@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:covid_tracker/View/login_screen.dart';
+import 'package:covid_tracker/View/textfieldtemp.dart';
 import 'package:covid_tracker/View/user_list.dart';
 import 'package:covid_tracker/View/world_stats.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen>
     Timer(Duration(seconds: 3), () {
       Navigator.of(context).push(
         MaterialPageRoute(
-          builder: (context) => WorldStatsScreen(),
+          builder: (context) => LoginScreen(),
         ),
       );
     });

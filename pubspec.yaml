@@ -41,6 +41,7 @@ dependencies:
   flutter_spinkit: ^5.1.0
   shimmer: ^2.0.0
   langchain: ^0.0.2
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -66,7 +67,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/virus.png
+    - images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
